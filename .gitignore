@@ -30,3 +30,39 @@
 *.exe
 *.out
 *.app
+
+# dSYM 파일 및 디렉토리 제외
+*.dSYM
+*.dSYM.zip
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Previously mentioned gcc and dSYM files
+*.o
+*.dSYM
+*.dSYM.zip
+
+# Your project specific ignores can be added here
+
